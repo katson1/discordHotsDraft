@@ -174,11 +174,6 @@ async def hello(ctx):
       await interaction.send(content = "Fica tisti não", ephemeral=False)
 
 
-# send a message with a Select component
-# recieve an interaction
-# scan for interaction in while loop
-
-
 @client.command()
 async def ban(ctx):
     if len(db["banidos"]) < 4:
