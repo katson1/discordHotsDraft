@@ -229,5 +229,5 @@ async def select(ctx):
         except:
             await ctx.send("Algo deu errado")
 
-client.run('OTkyMjAyMjA5MzAxMzg1MzE2.Gnlahz.p0eDeVmOiZ6R9W1BFZeJzwSEHilaQB4FaBqZG4')
+client.run('TOKEN')
 
